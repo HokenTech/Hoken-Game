@@ -1,0 +1,52 @@
+.Card.card1, .Card.card2, .Card.card3, .Card.card4, .Card.card5, .Card.card6, .Card.card7, .Card.card8, .Card.card9, .Card.card10, .Card.card11, .Card.card12, .Card.card13, .Card.card14, .Card.card15, .Card.card16, .Card.card17 {
+  border-radius: 0;
+  color: transparent; }
+
+a.Card {
+  top: 0;
+  transition: all .5s;
+  backface-visibility: hidden; }
+  a.Card:hover {
+    top: -20px;
+    transform: translateZ(0) scale(1.1); }
+
+.Card {
+  position: relative;
+  margin: 0 8px;
+  width: 150px;
+  height: 183px;
+  background-size: 100%;
+  border-radius: 8px;
+  color: #000;
+  font-size: 55px;
+  text-align: center;
+  display: inline-block; }
+  .Card:before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    height: 105%; }
+  .Card .type {
+    display: none; }
+  .Card.card1, .Card.card2 {
+    background-image: url("./images/Madonna.gif"); }
+  .Card.card3, .Card.card4 {
+    background-image: url("./images/Caduti.gif"); }
+  .Card.card5 {
+    background-image: url("./images/Garibaldi.gif"); }
+  .Card.card6, .Card.card7 {
+    background-image: url("./images/Le\ torri1.gif"); }
+  .Card.card8, .Card.card9 {
+    background-image: url("./images/Le\ torri2.gif"); }
+  .Card.card10 {
+    background-image: url("./images/Le\ torri3.gif"); }
+  .Card.card11, .Card.card12 {
+    background-image: url("./images/Passari.gif"); }
+  .Card.card13, .Card.card14 {
+    background-image: url("./images/Faro.gif"); }
+  .Card.card15 {
+    background-image: url("./images/Rufus.gif"); }
+  .Card.card16 {
+    background-image: url("./images/Calvario.gif"); }
+  .Card.card17 {
+    background-image: url("./images/Caparezza.gif"); }
